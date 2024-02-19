@@ -1,16 +1,32 @@
-body{background-color:green;
-    font-size:20px;
-    font-style: italic;
-    margin:10px;
-    border:10px;
-    padding:25px;
-}
-h1{background-color: gold;}
-p{background-color: brown;}
-h2{background-color: deeppink;}
-a:hover {
-    background-color: blueviolet;
+
+body
+  {
+  margin:25vw;
+  margin:25vh;
+  border:30px 10000px solid;
+  border-radius:100px;
+  border-style:groove;
+  padding:30vh;
+  text-align: center;
+  box-shadow: 2px 2px 1000px 2px goldenrod;
   }
-a:visited {
-    color: pink;
+  body    
+  {  
+    background-image:url(https://img.freepik.com/vetores-gratis/fundo-grunge-com-moldura-decorativa_1048-7886.jpg);
+    background-size:cover;
+    background-position:center; 
+    font-size:25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: relative;
+    outline: 10px solid gold
+  }
+  a:visited {
+    color: rgb(233, 229, 7);
+  }
+  a:hover {
+    background-color: rgb(238, 255, 0);
+  }
+  p::first-letter {
+    font-size: 200%;
   }
