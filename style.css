@@ -3,24 +3,26 @@ body
   {
   margin:25vw;
   margin:25vh;
-  border:30px 10000px solid;
+  border:30px 1000px solid;
   border-radius:100px;
   border-style:groove;
   padding:30vh;
   text-align: center;
-  box-shadow: 2px 2px 1000px 2px goldenrod;
+  box-shadow: 0px 0px 20px 0px goldenrod;
   }
-  body    
-  {  
-    background-image:url(https://img.freepik.com/vetores-gratis/fundo-grunge-com-moldura-decorativa_1048-7886.jpg);
+  body{    
+
+    background-image:url(https://blog.marcusoliveiradev.com.br/wp-content/uploads/2023/08/Como-colocar-cor-de-fundo-no-html.jpg);
     background-size:cover;
     background-position:center; 
     font-size:25px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-display: relative;
-    outline: 10px solid gold
-  }
+    outline: 40px solid gold;
+}
+  html{background:red
+    }
   a:visited {
     color: rgb(233, 229, 7);
   }
@@ -30,3 +32,14 @@ body
   p::first-letter {
     font-size: 200%;
   }
+  h1{
+    font-size: 55px;
+    font-style: italic;
+    border:55px groove rgb(219, 243, 5);
+    border-radius:100px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+li::marker {
+    color: #e39942;
+    
+    font-size: 30px;}
