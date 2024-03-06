@@ -11,18 +11,18 @@ body
   box-shadow: 0px 0px 20px 0px goldenrod;
   }
   body{    
-
-    background-image:url(https://blog.marcusoliveiradev.com.br/wp-content/uploads/2023/08/Como-colocar-cor-de-fundo-no-html.jpg);
+    color:rgb(255, 255, 255);
+    background-image:url(Imagem-Ouro.avif);
     background-size:cover;
     background-position:center; 
+    font-weight: bold;
     font-size:25px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-display: relative;
     outline: 40px solid gold;
+    background-repeat: no-repeat;
 }
-  html{background:red
-    }
   a:visited {
     color: rgb(233, 229, 7);
   }
@@ -41,5 +41,25 @@ body
 }
 li::marker {
     color: #e39942;
-    
-    font-size: 30px;}
+    font-size: 30px;
+}
+
+p,div{
+    color:whitesmoke;
+}
+.extra1{
+    background-size:90%;
+    width: 800px;
+    height: 650px;
+    background-image: url(https://thumbs.dreamstime.com/b/barras-de-ouro-20191440.jpg);
+    z-index: 2;
+    background-position:center;
+    right: 100;
+    display: flex;
+    top: 1800px;
+    background-repeat: no-repeat;
+    position:top;
+}
+a::curso{
+  .n-resize {cursor: n-resize;}
+}
